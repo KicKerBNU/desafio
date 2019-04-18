@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- meta tags obrigatorias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Hello World com Bootstrap</title>
+
+  <!-- CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+
+  
+</head>
+<body>
+     
+     <div class="container border flex-container " style="background:#f2f2f2; box-shadow: 0 3px 3px -1px #cccccc;">
+        <div class="row div-size ">
+          <!-- Cria uma linha e tres colunas para adicionar os conteudos no container -->
+            <div class="col-md-4">
+                
+                    
+                    <div class="card-body">
+                        <span style="color: Dodgerblue;"><i class="fas fa-tv fa-4x d-flex justify-content-center"></i></span>
+                        <h3  class="card-title">Full Responsive</h3>
+                        <p class="card-text">This theme will look great on any device, no matter the size.</p> 
+                    </div>
+                
+            </div>
+            <div class="col-md-4">
+                
+                    
+                    <div class="card-body">
+                        <span style="color: Dodgerblue;"><i class="fab fa-buffer fa-4x d-flex justify-content-center"></i></span>
+                        <h3 class="card-title">Bootstrap 4 Ready</h3>
+                        <p class="card-text">Featuring the latest build of the new Bootstrap 4 framework!</p> 
+                    </div>
+                
+            </div>
+            <div class="col-md-4">
+                
+                    
+                    <div class="card-body">
+                        <span style="color: Dodgerblue;"><i class="fas fa-check-circle fa-4x d-flex justify-content-center"></i></span>
+                        <h3 class="card-title">Easy to Use</h3>
+                        <p class="card-text">Ready to use with your own content,<br> or costumize the source files!</p> 
+                    </div>
+                
+            </div>
+            <div class="w-100 d-none d-md-block"></div>
+            <div class="col-md-12 d-flex justify-content-center">
+              <button id="button" type="button" class="btn btn-primary btn-lg">JQUERY</button>   
+            </div>
+        </div>
+    </div>
+  <!-- Primeiro o jQuery, depois o Popper.js, e depois o Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script>
+    // adicionando o alerta em Jquery para o evento On Click
+    $(document).ready( function(){
+      $('#button').click( function(){
+        alert('Teste de JQUERY');
+      });
+    });
+
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.js"></script>
+</body>
+</html>

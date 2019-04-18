@@ -1,0 +1,42 @@
+p{
+text-align: center
+}
+
+h3{
+text-align: center;
+font-weight: bolder;
+}
+.div-size{
+margin-bottom: 44px;
+}
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+.flex-container {
+    height: 380px;
+    padding: 10;
+    margin-top: 300px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#f2f2f2;
+    box-shadow: 0 3px 3px -1px #cccccc;
+}
+.row {
+    width: auto;
+    
+}
+@media all and (max-width: 767px){
+    .flex-container{
+        height: 770px;
+        padding-top: 60px;
+        margin-top: 20px;
+    }
+}
